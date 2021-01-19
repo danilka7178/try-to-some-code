@@ -21,18 +21,6 @@ code {
    &__body {
       text-align: center;
    }
-}
-
-.body {
-   &__header {
-      p {
-         opacity: 0.4;
-      }
-   }
-   &__mainContent {
-      border: 1px solid black;
-      margin: 0px 20px 15px 20px;
-   }
    &__footer {
       button {
          background: none;
@@ -57,7 +45,19 @@ code {
    }
 }
 
-.mainContent {
+.body {
+   &__header {
+      p {
+         opacity: 0.4;
+      }
+   }
+   &__main {
+      border: 1px solid black;
+      margin: 0px 20px 15px 20px;
+   }
+}
+
+.main {
    &__header {
       background-color: lightgray;
       h3 {
@@ -74,7 +74,7 @@ code {
          padding: 10px 10px;
       }
    }
-   &__items {
+   &__list {
       list-style: none;
       text-align: left;
    }
